@@ -1,0 +1,56 @@
+.carousel-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group-images-carousel{
+    margin: auto;
+    padding: 0;
+}
+
+.image-carousel{
+    display: none;
+}
+
+.active-carousel-image{
+    margin: auto;
+    max-width:100%;
+    height: 70vh;
+    display: block;
+    object-fit: contain;
+    
+}
+
+.move-carousel{
+    height: 2rem;
+    font-size: 1rem;
+}
+
+.prev-carousel{
+    margin-left: 1vw;
+}
+
+.next-carousel{
+    margin-right: 1vw;
+}
+
+@media screen and (min-width:800px) {
+    .move-carousel{
+        height: 5rem;
+        font-size: 3rem;
+    }
+    
+    .prev-carousel{
+        margin-left: 5rem;
+    }
+    
+    .next-carousel{
+        margin-right: 5rem;
+    }  
+    
+    .active-carousel-image{
+        object-fit: cover;
+        
+    }
+}

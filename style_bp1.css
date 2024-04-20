@@ -1,0 +1,145 @@
+:root{
+    --h1-size:44.79px;
+    --h2-size:31.10px;
+}
+*{
+    justify-content: space-between;
+}
+body{
+    text-align: left;
+    gap:15rem 15rem 0;
+}
+img{
+    max-width:50%;
+}
+main{
+    gap:6rem;
+}
+.intro,section:nth-of-type(2){
+    flex-flow: row nowrap;
+}
+header{
+    background-image: url(images/bg-hero-desktop.svg);
+    gap:6rem;
+}
+ .logo{
+    width: 100%;
+}
+.logo > img{
+    width:20%;
+}
+.intro{
+    gap:8.5rem;
+}
+.get-started-button{
+    width: 60%;
+    align-self: flex-start;
+    padding: 3.5%;
+}
+
+
+.cta-box{
+   flex-basis: 100%;
+   margin: 0 auto;
+}
+.cta-box h2{
+    font-size:31.10px;
+}
+.cta-box button{
+    align-self: center;
+    font-size: 18px;
+}
+
+.try-button{
+    border-radius:50px;
+    padding: 1% 6%;
+}
+
+.intro-image{
+    height: 70vh;
+    object-fit: scale-down;
+    margin: auto;
+}
+
+section{
+    flex-direction: row-reverse;
+    gap:0;
+    width:90%;
+    margin-bottom: 15rem;
+}
+section p{
+    line-height: 1.5rem;
+}
+
+section.carousel-images{
+    height:80vh;
+}
+/*
+section img{
+    width: 45%;
+}
+*/
+.features{
+    align-items:flex-start;
+}
+footer{
+    margin-top: 5rem;
+}
+.footer-logo{
+    width:auto;
+}
+.footer-row{
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    gap:6rem;
+    font-size: 21.6px;
+}
+.contacts{
+    flex-basis: 40%;
+}
+.navbar-bottom{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-items: flex-start;
+    column-gap:4rem;
+}
+.social-icons{
+    align-self: flex-start;
+    gap:2rem;
+}
+.downmost{
+    align-self: flex-end;
+    
+}
+.copyright{
+    align-self: flex-start;
+    font-size: 15px;
+}
+.attribution{
+    font-size: 15px;
+}
+
+#pricing {
+    padding: 100px;
+  }
+  
+  .price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+  
+  .pricing-column {
+    padding: 0 0;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: baseline;
+    align-items: baseline;
+  }
+
+  .card-header{
+    padding: 3%;
+    text-align: center;
+  }
